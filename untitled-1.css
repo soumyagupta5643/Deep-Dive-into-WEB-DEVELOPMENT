@@ -1,0 +1,61 @@
+.flex {
+    display: flex;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.btn_1 {
+    padding: 0.5rem 2rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border: 2px solid transparent;
+    outline: none;
+    cursor: pointer;
+    transition: all .3s ease;
+    background-color: var(--primary);
+}
+
+.btn-secondary_1 {
+    margin-top: 10px;
+}
+
+.color {
+    color: var(--pure);
+}
+
+.mainText {
+    color: var(--pure);
+    
+}
+
+.Developer {
+    color: var(--primary);
+    display: block;
+}
+
+.instagram:hover {
+    background: #f09433;
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f09433', endColorstr='#bc1888', GradientType=1);
+    border-radius: 20%;
+}
+.facebook:hover{
+    background-color:#4267B2;
+    border-radius: 40%;
+}
+.contri {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 145px;
+    margin-bottom: 20px;
+    color: var(--primary);
+}
